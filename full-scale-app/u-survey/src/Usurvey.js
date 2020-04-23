@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 var firebase = require('firebase');
 var uuid = require('uuid');
 
@@ -92,7 +92,7 @@ class Usurvey extends Component {
                         <input type="radio" name="answer1" value="Design" onChange={this.answerSelected} />Design
                     </div>
 
-                    <div className="card">
+                    <div className="card">.
                         <label>You are a: </label> <br />
                         <input type="radio" name="answer2" value="Student" onChange={this.answerSelected} />Student
                         <input type="radio" name="answer2" value="In-job" onChange={this.answerSelected} />In job

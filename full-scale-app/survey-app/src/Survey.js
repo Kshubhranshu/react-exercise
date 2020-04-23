@@ -47,7 +47,7 @@ class Survey extends Component {
     }
 
     questionSubmit(event) {
-        firebase.database().ref('uSurvey/' + this.state.uid).set({
+        firebase.database().ref('/uSurvey' + this.state.uid).set({
             studentName: this.state.studentName,
             answers: this.state.answers
         });
